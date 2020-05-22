@@ -1,3 +1,5 @@
+// Hou comment: when you have time after the course, you could go back to your controllers and enhance error handling with these custom Error objects. Otherwise, delete the ones you're not using.
+
 // Require Mongoose so we can use it later in our handlers
 const mongoose = require('mongoose')
 

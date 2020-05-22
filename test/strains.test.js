@@ -1,3 +1,5 @@
+// Hou comment: really awesome job writing these tests! Make sure to leave a note in the README 
+// on how to run these tests!
 const should = require('chai').should()
 const expect = require('chai').expect
 const supertest = require('supertest')

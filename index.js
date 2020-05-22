@@ -14,11 +14,6 @@ app.use(express.urlencoded({ extended: true }))
 
 app.use('/strains', strainsController)
 
-// app.set('port', process.env.PORT || 4000)
-
-// app.listen(4000, () => {
-//   console.log('FIRE-back listening on 4000. We are connected!')
-// })
 app.set('port', process.env.PORT || 8000)
 
 app.listen(app.get('port'), () => {
